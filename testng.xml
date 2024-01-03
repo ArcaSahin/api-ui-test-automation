@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Cases of Trendyol Case" parallel="classes" thread-count="1">
+    <test name="Regression">
+        <groups>
+            <run>
+                <include name="LoginTest"/>
+                <include name="SignInTest"/>
+                <include name="ApiTest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ui.tests.base.BaseTest"/>
+            <class name="ui.tests.base.LoginTests"/>
+            <class name="ui.tests.base.SignInTests"/>
+            <class name="api.tests.MainServiceTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

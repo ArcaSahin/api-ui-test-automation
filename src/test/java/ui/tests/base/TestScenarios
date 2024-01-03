@@ -1,0 +1,25 @@
+Test Cases:
+1- Verify if a user will be able to login with a valid username and valid password.
+2- Verify if a user cannot login with a valid username and an invalid password.
+3- Verify if a user cannot login with an invalid username and a valid password.
+4- Verify if a user cannot login with a valid username and a null password.
+5- Verify if a user cannot login with a null username and a valid password.
+6- Verify if a user cannot login with a null username and a null password.
+7- Verify forgot password field fuctionality.
+8- Verify without sign in link text functionality.
+9- Verify sign in field functionality.
+10- Verify the messages for invalid login.
+11- Verify the messages for invalid login.
+12- Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.
+13- Verify if there is a ‘Cancel’ button available to erase the entered text.
+14- Verify if a user cannot enter the characters more than the specified range in field (Password).
+15- Verify if a user should not be allowed to log in with different credentials from the same browser at the same time.
+16- Verify if a user should be able to login with the same credentials in different browsers at the same time.
+17- Verify if a user cannot enter the characters which are not allowed for Password field during sign in process.
+18- Verify if a user cannot enter the characters less the specified range in field (Password).
+19- Verify if a user cannot enter the space characters for the specified field (Password).
+20- Verify if a user cannot enter the space characters with alphanumeric values for the specified field (Password).
+
+
+
+
